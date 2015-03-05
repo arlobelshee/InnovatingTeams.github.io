@@ -129,7 +129,6 @@ module.exports = function (grunt) {
 				dir: '<%= site.dest %>',
 				commit: true,
 				push: true,
-				tag: '<%= pkg.version %>',
 				message: 'Built %sourceName% for production from %sourceCommit%.'
 			},
 			local: {
@@ -140,6 +139,7 @@ module.exports = function (grunt) {
 			},
 			live: {
 				options: {
+					tag: '<%= pkg.version %>',
 					branch: 'master',
 					remote: 'upstream'
 				}
