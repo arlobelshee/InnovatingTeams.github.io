@@ -1,29 +1,32 @@
 {
-	"name": "RawTemplate",
-	"description": "Your tagline",
+	"name": "InnovatingTeams",
+	"description": "Effective teams in 5000 person organizations",
 	"version": "0.1.1",
-	"homepage": "http://example.com/",
-	"contrib_root": "https://github.com/Product/Product.github.io",
+	"homepage": "http://InnovatingTeams.com/",
+	"contrib_root": "https://github.com/InnovatingTeams/InnovatingTeams.github.io",
 	"author": {
 		"name": "Arlo Belshee",
 		"url": "https://github.com/arlobelshee"
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/Product/Product.github.io.git",
+		"url": "https://github.com/InnovatingTeams/InnovatingTeams.github.io.git",
 		"slug": "Product.github.io"
 	},
 	"bugs": {
-		"url": "https://github.com/Product/Product.github.io/issues"
+		"url": "https://github.com/InnovatingTeams/InnovatingTeams.github.io/issues"
 	},
 	"licenses": [
 		{
 			"type": "MIT",
-			"url": "https://github.com/Product/Product.github.io/blob/master/LICENSE-MIT"
+			"url": "https://spdx.org/licenses/MIT#licenseText"
 		},
 		{
-			"type": "CC BY 3.0",
+			"type": "CC-BY-3.0",
 			"url": "http://creativecommons.org/licenses/by/3.0/"
+		},
+		{
+			"type": "Proprietary"
 		}
 	],
 	"main": "Gruntfile.js",

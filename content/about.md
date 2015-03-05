@@ -4,6 +4,7 @@ layout: markdown.hbs
 title: About
 slug: about
 lead: <%= site.description %>
+proprietary: true
 contributors:
  - name: Arlo Belshee
    username: arlobelshee

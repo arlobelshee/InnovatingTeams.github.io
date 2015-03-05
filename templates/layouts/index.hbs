@@ -2,15 +2,9 @@
 layout: default.hbs
 ---
 
-<div class="bs-docs-section">
-  <div class="page-header">
-    <h1 id="welcome">Index  {{> popover popover.anchors }}</h1>
-  </div>
-  <p class="lead">This intro text comes from the template, not the markdown content. Edit it in templates/layouts/index.html. This template is used only for the index, so your index can use a different design from the rest of your site. Everything after this paragraph comes from the markdown content.</p>
-  
-{{#markdown}}
-{{> body }}
-{{/markdown}}
+<div class="content">
+	{{#markdown}}
+	{{> body }}
+	{{/markdown}}
 </div>
-
 

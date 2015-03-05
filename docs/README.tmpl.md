@@ -85,4 +85,4 @@ Project created by [{%= author.name %}]({%= author.url %}).
 
 [issues]: {%= bugs.url %} "Current open problems"
 [new-issue]: {%= bugs.url %}/new "Raise a new open problem"
-[fork]: {%= contrib_root %}fork "Contribute a potential solution to a problem"
+[fork]: {%= contrib_root %}/fork "Contribute a potential solution to a problem"

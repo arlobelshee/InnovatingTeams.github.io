@@ -2,13 +2,13 @@
 
 Edit docs/README.tmpl.md. That is used to generate both the website's readme page and the root directory's README.md.
 
-# RawTemplate  
+# InnovatingTeams  
 
-> Your tagline
+> Effective teams in 5000 person organizations
 
 ## Getting Started
 
-See the main website at <https://github.com/Product/Product.github.io/>.
+See the main website at <https://github.com/InnovatingTeams/InnovatingTeams.github.io/>.
 
 ## Contributing
 
@@ -83,6 +83,6 @@ This work is licensed under a [![Creative Commons License](https://i.creativecom
 
 Project created by [Arlo Belshee](https://github.com/arlobelshee).
 
-[issues]: https://github.com/Product/Product.github.io/issues "Current open problems"
-[new-issue]: https://github.com/Product/Product.github.io/issues/new "Raise a new open problem"
-[fork]: https://github.com/Product/Product.github.iofork "Contribute a potential solution to a problem"
+[issues]: https://github.com/InnovatingTeams/InnovatingTeams.github.io/issues "Current open problems"
+[new-issue]: https://github.com/InnovatingTeams/InnovatingTeams.github.io/issues/new "Raise a new open problem"
+[fork]: https://github.com/InnovatingTeams/InnovatingTeams.github.io/fork "Contribute a potential solution to a problem"
