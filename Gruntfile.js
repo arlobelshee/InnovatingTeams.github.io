@@ -108,7 +108,7 @@ module.exports = function (grunt) {
 			ghpages: {
 				files: [
 					{ src: ['README.md'], dest: '<%= site.dest %>/' },
-					{ expand: true, cwd: 'static', src: ['*.*', '**/*.*'], dest: '<%= site.dest %>/', dot: true }
+					{ expand: true, cwd: 'static', src: ['*.*', '**/*.*', '*'], dest: '<%= site.dest %>/', dot: true }
 				]
 			}
 		},
