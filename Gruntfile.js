@@ -135,13 +135,13 @@ module.exports = function (grunt) {
 			local: {
 				options: {
 					branch: 'gh_pages',
-					remote: 'origin'
+					remote: '../'
 				}
 			},
 			live: {
 				options: {
 					branch: 'master',
-					remote: 'upstream'
+					remote: 'https://github.com/InnovatingTeams/InnovatingTeams.github.io.git'
 				}
 			}
 		}
