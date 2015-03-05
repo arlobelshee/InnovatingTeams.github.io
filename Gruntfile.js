@@ -108,7 +108,7 @@ module.exports = function (grunt) {
 			ghpages: {
 				files: [
 					{ src: ['README.md'], dest: '<%= site.dest %>/' },
-					{ expand: true, cwd: 'static', src: ['*.*', '**/*.*'], dest: '<%= site.dest %>/', dot: true }
+					{ expand: true, cwd: 'static', src: ['*.*', '**/*.*', '*'], dest: '<%= site.dest %>/', dot: true }
 				]
 			}
 		},
@@ -129,13 +129,19 @@ module.exports = function (grunt) {
 				dir: '<%= site.dest %>',
 				commit: true,
 				push: true,
-				tag: '<%= pkg.version %>',
 				message: 'Built %sourceName% for production from %sourceCommit%.'
 			},
 			local: {
 				options: {
+					branch: 'gh-pages',
+					remote: 'origin'
+				}
+			},
+			live: {
+				options: {
+					tag: '<%= pkg.version %>',
 					branch: 'master',
-					remote: '../'
+					remote: 'upstream'
 				}
 			}
 		}
@@ -162,4 +168,5 @@ module.exports = function (grunt) {
 	grunt.registerTask('default', ['clean', 'jshint', 'build']);
 
 	grunt.registerTask('deploy', ['buildcontrol:local']);
+	grunt.registerTask('ship', ['buildcontrol:live']);
 };

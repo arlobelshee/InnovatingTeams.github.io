@@ -1,17 +1,17 @@
 {
 	"name": "InnovatingTeams",
 	"description": "Effective teams in 5000 person organizations",
-	"version": "0.1.1",
-	"homepage": "http://InnovatingTeams.com/",
+	"version": "0.2.0",
+	"homepage": "http://www.InnovatingTeams.com/",
 	"contrib_root": "https://github.com/InnovatingTeams/InnovatingTeams.github.io",
 	"author": {
-		"name": "Arlo Belshee",
-		"url": "https://github.com/arlobelshee"
+		"name": "Innovating Teams",
+		"url": "https://github.com/InnovatingTeams"
 	},
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/InnovatingTeams/InnovatingTeams.github.io.git",
-		"slug": "Product.github.io"
+		"slug": "InnovatingTeams.github.io"
 	},
 	"bugs": {
 		"url": "https://github.com/InnovatingTeams/InnovatingTeams.github.io/issues"
@@ -22,8 +22,8 @@
 			"url": "https://spdx.org/licenses/MIT#licenseText"
 		},
 		{
-			"type": "CC-BY-3.0",
-			"url": "http://creativecommons.org/licenses/by/3.0/"
+			"type": "CC-BY-4.0",
+			"url": "http://creativecommons.org/licenses/by/4.0/"
 		},
 		{
 			"type": "Proprietary"

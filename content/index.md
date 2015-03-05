@@ -1,7 +1,7 @@
 ---
 layout: index.hbs
 
-title: Home
+title: Unbelievable success comes from great teams
 lead: <%= site.lead %>
 ---
 
