@@ -134,6 +134,12 @@ module.exports = function (grunt) {
 			},
 			local: {
 				options: {
+					branch: 'gh_pages',
+					remote: '../'
+				}
+			},
+			live: {
+				options: {
 					branch: 'master',
 					remote: '../'
 				}
@@ -162,4 +168,5 @@ module.exports = function (grunt) {
 	grunt.registerTask('default', ['clean', 'jshint', 'build']);
 
 	grunt.registerTask('deploy', ['buildcontrol:local']);
+	grunt.registerTask('ship', ['buildcontrol:live']);
 };
