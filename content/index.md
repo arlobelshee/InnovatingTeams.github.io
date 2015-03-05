@@ -1,8 +1,8 @@
 ---
 layout: index.hbs
 
-title: Unbelievable success comes from great teams
-lead: <%= site.lead %>
+title: Unbelievable success
+lead: Unbelievable success comes from great teams and good organization between those teams. We show 1000+ person organizations how to collaborate in a Lean way.
 ---
 
 # What unbelievable success looks like
