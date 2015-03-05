@@ -1,0 +1,106 @@
+# =============================================
+# Build config
+# =============================================
+
+root:             _gh_pages
+dest:             <%= site.root %>
+assets:           <%= site.dest %>/assets
+
+# Data
+data:             data/*.{json,yml}
+
+# Templates
+templates:        templates
+includes:         <%= site.templates %>/includes/*.hbs
+layouts:          <%= site.templates %>/layouts
+layout:           default.hbs
+content:          content
+apps:          apps
+
+# Extensions
+helpers:          
+  - <%= site.templates %>/helpers/*.js
+  - handlebars-helper-br
+
+plugins:
+  - assemble-contrib-anchors
+  - assemble-contrib-wordcount
+  - assemble-contrib-toc
+
+# Theme
+theme:            theme
+components:       <%= site.theme %>/components
+
+
+# =============================================
+# Project metadata
+# =============================================
+
+# GitHub
+username:         Product
+name:             Product.github.io
+download:
+  source:         <%= pkg.contrib_root %>/archive/master.zip
+
+
+# =============================================
+# Site metadata
+# =============================================
+
+brand:            Your brand
+title:            Your title
+lead:             <%= pkg.description %>
+
+version:          <%= pkg.version %>
+description:      <%= pkg.description %>
+license:
+  type:           <%= pkg.licenses[0].type %>
+  url:            <%= pkg.licenses[0].url %>
+content_license:
+  type:           <%= pkg.licenses[1].type %>
+  url:            <%= pkg.licenses[1].url %>
+
+# Links
+url:
+  repo:           <%= pkg.contrib_root %>
+  bugs:           <%= pkg.bugs.url %>?state=open
+  ghpages:        <%= pkg.homepage %>
+
+  # Site
+  domain:         <%= pkg.homepage %>
+  about:          <%= site.url.domain %>/about/
+  blog:           <%= site.url.domain %>/blog/
+
+
+# SEO/SEM
+ga:
+  id:             false
+  domain:         <%= site.username %>.github.io
+  siteid:         false
+  # Google Tags (see: https://www.google.com/tagmanager/)
+  tags:           false
+
+# Comments
+disqus:
+  enabled:        true
+  shortname:      <%= pkg.name %>
+
+# Social
+social:
+  twitter:
+    via:          youtweet
+    username:     youtweet
+    related:      youtweet:Company broadcast.
+  facebook:       true
+  linkedin:       true
+  gplus:          true
+  hn:             true
+  google:         true
+
+# Sharing
+sharing:
+  twitter:        true
+  facebook:       true
+  gplus:          true
+  hn:             true
+  google:         true
