@@ -71,7 +71,7 @@ Deploy to gh-pages in your fork and then look online:
 
 	grunt deploy
 
-Point your browser at <https://username.github.io/{%= repository.slug %}/>.
+Point your browser at <http://username.github.io/{%= repository.slug %}/>.
 
 ### How to: submit your pull request
 
