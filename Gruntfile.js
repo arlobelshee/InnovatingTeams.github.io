@@ -135,13 +135,13 @@ module.exports = function (grunt) {
 			local: {
 				options: {
 					branch: 'gh_pages',
-					remote: '../'
+					remote: 'origin'
 				}
 			},
 			live: {
 				options: {
 					branch: 'master',
-					remote: '../'
+					remote: 'upstream'
 				}
 			}
 		}
