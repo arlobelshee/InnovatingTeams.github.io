@@ -210,7 +210,7 @@ module.exports = function (grunt) {
 				dir: '<%= site.dest %>',
 				commit: true,
 				push: true,
-				message: 'Built %sourceName% for production from %sourceCommit%.'
+				message: 'Built %sourceName% <%= pkg.version %> from %sourceCommit%.'
 			},
 			local: {
 				options: {
