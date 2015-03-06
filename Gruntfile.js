@@ -261,6 +261,6 @@ module.exports = function (grunt) {
 
 	grunt.registerTask('deploy', ['buildcontrol:local']);
 	grunt.registerTask('integrate', ['gitcheckout:src', 'gitfetch:upstream', 'gitmerge:upstream', 'default', 'gitpush:origin']);
-	grunt.registerTask('ship-prep', ['gitcheckout:src', 'gitfetch:upstream', 'gitmerge:upstream', 'default', 'confirm_ship']);
+	grunt.registerTask('ship-prep', ['gitcheckout:src', 'gitfetch:upstream', 'gitmerge:upstream', 'default', 'copy:production_only', 'confirm_ship']);
 	grunt.registerTask('ship-go', ['sync', 'default', 'copy:production_only', 'gitadd:version_bump', 'gitcommit:version_bump', 'gitpush:upstream', 'gitpush:origin', 'buildcontrol:live']);
 };
