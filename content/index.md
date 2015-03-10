@@ -171,11 +171,17 @@ We are currently building the following tools.
  * Report on habit changes and long-term improvements to management.
  * Guide your retrospectives, keeping them on track to deliver experiments and habit changes&mdash;real change.
  * Maintain and improve system models over time. Progressively develop understanding of how your team works and fails so that you can make more effective changes.
-* **Who's  on it?** helps anyone in the organization understand the organization as a whole. It dynamically shows your current innovation network so that you can see who is doing what and who is partnered with whom on what.
+* **Who's on it?** helps anyone in the organization understand the organization as a whole. It dynamically shows your current innovation network so that you can see who is doing what and who is partnered with whom on what.
  * Teams manage relationships via lightweight interaction agreements.
  * Measure health of relationships via metrics against the agreements.
  * Team members and managers alike can see when relationships are missing or need improvement. People can decide where to optimally spend attention.
  * Search by topic to see which teams are actively working on that topic.
- * Integrates with Yammer to search in-team and cross-team discussions for topics.
+ * Integrates with Yammer or HipChat to search in-team and cross-team discussions for topics.
  * Get reminded about relationships which have served their purpose so they can be officially dissolved and free the teams to innovate independently.
  * Discover areas of the product or process where consistency is more valuable than innovation. Collaboratively come to agreements over time to optimize the whole network.
+* **What do we know about...?** helps the organization discover shared strategic intent in a decentralized fashion. It places product decisions firmly in the realm of validated learning and intentional experimentation. It allows everyone to maximally contribute their knowledge and to see what is known by others in the organization, then to come to agreement on how to take advantage of that information.
+ * Teams validate knowledge via experiments.
+ * Search the knowledge base by question or problem and learn what is known&mdash;and not known&mdash;about that topic.
+ * Form cross-team agreements to mutually explore an area.
+ * Use metrics to assess value of learning generated and find the most valuable opportunities for future experiments.
+ * 
