@@ -184,4 +184,3 @@ We are currently building the following tools.
  * Search the knowledge base by question or problem and learn what is known&mdash;and not known&mdash;about that topic.
  * Form cross-team agreements to mutually explore an area.
  * Use metrics to assess value of learning generated and find the most valuable opportunities for future experiments.
- * 
