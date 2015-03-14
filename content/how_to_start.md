@@ -31,7 +31,7 @@ This page describes the base recipe we customize to make it happen. The recipe i
 
 # Week -4
 
-First we get the right people in place to support the transformation to come.
+First we get the right people in place to support the transformation to come. We also prepare the managers to shift from managers to servant leaders.
 
 ## Do
 
@@ -53,6 +53,8 @@ Additionally, the set of all champions must meet several criteria:
 2. If the champions group makes a decision then it is made. Decisions are not subject to review or veto&mdash;anyone who could veto is a champion.
 3. Have a group identity.
 
+**Check whether top managers want to become servant leaders.** Clarify what this role shift means. Clarify that it means they will no longer made decisions or even have much influence into the decisions that are made. Clarify that it means they can no longer punish or reward people for making good or poor decisions&mdash;only reward a culture of taking appropriate risks, knowing they might succeed or fail. Are existing managers enthusiastic about this prospect?
+
 ## Do not do
 
 **Try to change a unit of over 150 people as one unit.** If the obvious names are for groups larger than this size, then find well-named subgroups that make sense. Different change groups can still coordinate their products, but change is easiest if the change boundary does not exceed 150 people.
@@ -64,6 +66,8 @@ Additionally, the set of all champions must meet several criteria:
 **Decide, centrally, what will happen.** We are changing culture from one that highlights a small number of brains as "exceptional" to one that takes advantage of all the brains in the organization. Accomplishing this requires that we actually use all of those brains&mdash;especially when they get different results than the few brains that used to make all the decisions.
 
 **Ask everyone who should be champions.** The group is poor at making group decisions right now. They are skilled at using authority. So use authority to quickly identify the right people. Do ask people from each part of the organization who the right people are; people are often obvious choices to one segment and invisible to another.
+
+**Continue if managers expect to retain authority.** People with status will retain status, but authority will become a much less appropriate method of making decisions. Current managers will lose their authority; they will have to seek consensus&mdash;just like everyone else always has&mdash; if they want their opinions to influence decisions. If managers aren't enthusiastic about this prospect, stop the transition. The new culture requires decentralization of power.
 
 # Week -2
 
@@ -91,7 +95,18 @@ Prepare the kickoff. Technical champions learn key micro-skills.
 
 ## Do
 
+**Focus on launch day. Champs design a launch.**
+
+**Ensure technical champs know how to do key skills.** These skills are:
+
+1. Facilitate a mob.
+2. Refactor, using tools, to introduce names (key 6 refactorings).
+3. Write a mini-spec, designed to be read, in a unit testing framework (using fluent assertions).
+4. Understand the sequence of developing good names (J.B. Rainsburger's blog post).
+
 ## Do not do
+
+**Managers take over.** The culture of having anyone other than management own change is weak. It requires strong reinforcement this week. Err on the side of manager non-involvement if you can't have managers participate as supporting characters.
 
 # Day 1
 
