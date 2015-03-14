@@ -155,6 +155,40 @@ You own your growth along this trajectory. We can speed you up and decrease cost
 
 If your team is willing to be the best&mdash;and put in the effort it takes to get there&mdash;Arlo can show you how.
 
+We are currently creating the following process improvements.
+
+* **Agile Engineering Fluency** model describes the various skills and techniques used by teams during their first 3-4 years of 3-star Agile transitions. It helps teams measure their progress and get clear ideas about what techniques they are ready for and which ones have pre-reqs they need first.
+ * Based on the [Agile Fluency model](http://agilefluency.com/), but broken into details.
+ * Breaks up the XP practices into the many ways that they are practiced, showing which ways of practice require what context and have what results.
+ * Each technique includes recipes to gain basic proficiency with that stage, recipes for full fluency, measures to self-identify whether a team has it, and so on.
+ * The tool allows a team to record its current levels and make goals, incrementally advancing their progress and providing share-able visibility into the current state.
+* **Scale-out consistency** a process and set of tools to enable experimentation in some places and consistency in others, both without centralization.
+ * Separate teams can come together to identify opportunities arising from consistency and the group across which that consistency applies.
+ * Decentralized decision-making enables rapid, consent-level agreement on goals.
+ * Provides a way to make visible what each team is doing with respect to the desired consistency.
+ * Allows those teams to iterate on the current "agreed way."
+ * Clarifies how teams should adjust their own practice to come towards the group.
+ * Makes it easier for a team to discover when their own practice has better results than the agreed one and raise that data so that the group and modify the "agreed way."
+ * Enables group to define intentional experiments to discover the desired way to do something and then become consistent on it.
+ * Applies for many different domains: product, process, branding, quality, UI, and just about anything else.
+* **Experiments in Lean/Agile** is the first open-source Lean or Agile methodology. It is experimentally derived and continuously updated by the community which uses it.
+ * Each technique gives clear links to the experiments that show where it has worked and where it has not.
+ * Techniques are specific and have variations, rather than trying to be broad enough to include all variations. Variations link to contexts in which they apply and pre-reqs they have.
+ * Employs a fork/pull-request model to modify the process.
+ * Anyone can fork the process and modify it as they desire.
+ * Anyone can submit a pull request to integrate a known and tested change back to the upstream process.
+ * Techniques include a statement about the evidence supporting them. They start as wild ideas and anecdotes, work their way towards experimentation in process, early results, established results, and thoroughly analyzed. Different users of the practice can choose where to take on less well-established practices to try to gain competitive advantage or use time-tested patterns to at least avoid falling too far behind.
+* **Micro-skills, Mindshifts, and Memes** is an approach to team improvement based on iterative learning and rapid experiment cycles.
+ * Recognizes that big skills are actually bundles of small, simple techniques.
+ * Orders those techniques so that the ones that will pay off in the current context are first.
+ * Always change the context and then use more techniques to leverage the new context, rather than trying to use the techniques and hoping that the team will put the new context into place so that it'll work.
+ * Spread ideas by the creation of tagged memes. Allows tracking the spread of ideas.
+ * Tagged memes also allow ideas to change as they spread but still retain a carefully chosen core idea. Incorporate new conceptions and points of view without losing the key idea.
+ * Identifies that most micro-skills will be easily learned by any team in the right context without instruction. The exceptions are ones where a mind-shift is required to see how it comes together.
+ * Focuses transformation support people (internal and external) on sequencing those Mindshifts and providing each to the team at the moment they are ready for it.
+ * Allows high-scale transformations. A single change agent can perform 3-star transformations for hundreds or thousands of people, as it takes maximum advantage of peoples' ability to coach themselves.
+ * Each team owns its own transformations, allowing scale and variation or consistency without overwhelming executive function in management.
+
 # Tooling
 
 Teams share some common tooling gaps. We are building tools to address those needs. All tools are designed to integrate well with your existing tools. We don't force teams to transition toolsets; we provide options they can use to enhance their own work.
@@ -171,11 +205,16 @@ We are currently building the following tools.
  * Report on habit changes and long-term improvements to management.
  * Guide your retrospectives, keeping them on track to deliver experiments and habit changes&mdash;real change.
  * Maintain and improve system models over time. Progressively develop understanding of how your team works and fails so that you can make more effective changes.
-* **Who's  on it?** helps anyone in the organization understand the organization as a whole. It dynamically shows your current innovation network so that you can see who is doing what and who is partnered with whom on what.
+* **Who's on it?** helps anyone in the organization understand the organization as a whole. It dynamically shows your current innovation network so that you can see who is doing what and who is partnered with whom on what.
  * Teams manage relationships via lightweight interaction agreements.
  * Measure health of relationships via metrics against the agreements.
  * Team members and managers alike can see when relationships are missing or need improvement. People can decide where to optimally spend attention.
  * Search by topic to see which teams are actively working on that topic.
- * Integrates with Yammer to search in-team and cross-team discussions for topics.
+ * Integrates with Yammer or HipChat to search in-team and cross-team discussions for topics.
  * Get reminded about relationships which have served their purpose so they can be officially dissolved and free the teams to innovate independently.
  * Discover areas of the product or process where consistency is more valuable than innovation. Collaboratively come to agreements over time to optimize the whole network.
+* **What do we know about...?** helps the organization discover shared strategic intent in a decentralized fashion. It places product decisions firmly in the realm of validated learning and intentional experimentation. It allows everyone to maximally contribute their knowledge and to see what is known by others in the organization, then to come to agreement on how to take advantage of that information.
+ * Teams validate knowledge via experiments.
+ * Search the knowledge base by question or problem and learn what is known&mdash;and not known&mdash;about that topic.
+ * Form cross-team agreements to mutually explore an area.
+ * Use metrics to assess value of learning generated and find the most valuable opportunities for future experiments.
