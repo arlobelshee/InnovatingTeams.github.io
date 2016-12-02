@@ -56,7 +56,6 @@
     <None Include="apps\**\*.*" />
     <None Include="content\**\*.*" />
     <None Include="data\**\*.*" />
-    <None Include="docs\**\*.*" />
     <None Include="templates\**\*.*" />
     <None Include="theme\**\*.*" />
     <None Include="vendor\**\*.*" />
