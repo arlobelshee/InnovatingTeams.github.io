@@ -158,36 +158,59 @@ If your team is willing to be the best&mdash;and put in the effort it takes to g
 We are currently creating the following process improvements.
 
 * **Agile Engineering Fluency** model describes the various skills and techniques used by teams during their first 3-4 years of 3-star Agile transitions. It helps teams measure their progress and get clear ideas about what techniques they are ready for and which ones have pre-reqs they need first.
- * Based on the [Agile Fluency model](http://agilefluency.com/), but broken into details.
- * Breaks up the XP practices into the many ways that they are practiced, showing which ways of practice require what context and have what results.
- * Each technique includes recipes to gain basic proficiency with that stage, recipes for full fluency, measures to self-identify whether a team has it, and so on.
- * The tool allows a team to record its current levels and make goals, incrementally advancing their progress and providing share-able visibility into the current state.
+  * Based on the [Agile Fluency model](http://agilefluency.com/), but broken into details.
+  * Breaks up the XP practices into the many ways that they are practiced, showing which ways of practice require what context and have what results.
+  * Each technique includes recipes to gain basic proficiency with that stage, recipes for full fluency, measures to self-identify whether a team has it, and so on.
+  * The tool allows a team to record its current levels and make goals, incrementally advancing their progress and providing share-able visibility into the current state.
 * **Scale-out consistency** a process and set of tools to enable experimentation in some places and consistency in others, both without centralization.
- * Separate teams can come together to identify opportunities arising from consistency and the group across which that consistency applies.
- * Decentralized decision-making enables rapid, consent-level agreement on goals.
- * Provides a way to make visible what each team is doing with respect to the desired consistency.
- * Allows those teams to iterate on the current "agreed way."
- * Clarifies how teams should adjust their own practice to come towards the group.
- * Makes it easier for a team to discover when their own practice has better results than the agreed one and raise that data so that the group and modify the "agreed way."
- * Enables group to define intentional experiments to discover the desired way to do something and then become consistent on it.
- * Applies for many different domains: product, process, branding, quality, UI, and just about anything else.
+  * Separate teams can come together to identify opportunities arising from consistency and the group across which that consistency applies.
+  * Decentralized decision-making enables rapid, consent-level agreement on goals.
+  * Provides a way to make visible what each team is doing with respect to the desired consistency.
+  * Allows those teams to iterate on the current "agreed way."
+  * Clarifies how teams should adjust their own practice to come towards the group.
+  * Makes it easier for a team to discover when their own practice has better results than the agreed one and raise that data so that the group and modify the "agreed way."
+  * Enables group to define intentional experiments to discover the desired way to do something and then become consistent on it.
+  * Applies for many different domains: product, process, branding, quality, UI, and just about anything else.
 * **Experiments in Lean/Agile** is the first open-source Lean or Agile methodology. It is experimentally derived and continuously updated by the community which uses it.
- * Each technique gives clear links to the experiments that show where it has worked and where it has not.
- * Techniques are specific and have variations, rather than trying to be broad enough to include all variations. Variations link to contexts in which they apply and pre-reqs they have.
- * Employs a fork/pull-request model to modify the process.
- * Anyone can fork the process and modify it as they desire.
- * Anyone can submit a pull request to integrate a known and tested change back to the upstream process.
- * Techniques include a statement about the evidence supporting them. They start as wild ideas and anecdotes, work their way towards experimentation in process, early results, established results, and thoroughly analyzed. Different users of the practice can choose where to take on less well-established practices to try to gain competitive advantage or use time-tested patterns to at least avoid falling too far behind.
+  * Each technique gives clear links to the experiments that show where it has worked and where it has not.
+  * Techniques are specific and have variations, rather than trying to be broad enough to include all variations. Variations link to contexts in which they apply and pre-reqs they have.
+  * Employs a fork/pull-request model to modify the process.
+  * Anyone can fork the process and modify it as they desire.
+  * Anyone can submit a pull request to integrate a known and tested change back to the upstream process.
+  * Techniques include a statement about the evidence supporting them. They start as wild ideas and anecdotes, work their way towards experimentation in process, early results, established results, and thoroughly analyzed. Different users of the practice can choose where to take on less well-established practices to try to gain competitive advantage or use time-tested patterns to at least avoid falling too far behind.
 * **Micro-skills, Mindshifts, and Memes** is an approach to team improvement based on iterative learning and rapid experiment cycles.
- * Recognizes that big skills are actually bundles of small, simple techniques.
- * Orders those techniques so that the ones that will pay off in the current context are first.
- * Always change the context and then use more techniques to leverage the new context, rather than trying to use the techniques and hoping that the team will put the new context into place so that it'll work.
- * Spread ideas by the creation of tagged memes. Allows tracking the spread of ideas.
- * Tagged memes also allow ideas to change as they spread but still retain a carefully chosen core idea. Incorporate new conceptions and points of view without losing the key idea.
- * Identifies that most micro-skills will be easily learned by any team in the right context without instruction. The exceptions are ones where a mind-shift is required to see how it comes together.
- * Focuses transformation support people (internal and external) on sequencing those Mindshifts and providing each to the team at the moment they are ready for it.
- * Allows high-scale transformations. A single change agent can perform 3-star transformations for hundreds or thousands of people, as it takes maximum advantage of peoples' ability to coach themselves.
- * Each team owns its own transformations, allowing scale and variation or consistency without overwhelming executive function in management.
+  * Recognizes that big skills are actually bundles of small, simple techniques.
+  * Orders those techniques so that the ones that will pay off in the current context are first.
+  * Always change the context and then use more techniques to leverage the new context, rather than trying to use the techniques and hoping that the team will put the new context into place so that it'll work.
+  * Spread ideas by the creation of tagged memes. Allows tracking the spread of ideas.
+  * Tagged memes also allow ideas to change as they spread but still retain a carefully chosen core idea. Incorporate new conceptions and points of view without losing the key idea.
+  * Identifies that most micro-skills will be easily learned by any team in the right context without instruction. The exceptions are ones where a mind-shift is required to see how it comes together.
+  * Focuses transformation support people (internal and external) on sequencing those Mindshifts and providing each to the team at the moment they are ready for it.
+  * Allows high-scale transformations. A single change agent can perform 3-star transformations for hundreds or thousands of people, as it takes maximum advantage of peoples' ability to coach themselves.
+  * Each team owns its own transformations, allowing scale and variation or consistency without overwhelming executive function in management.
+* **Legacy Mastery Series**
+  * A trilogy that transforms your software economics. Pay off technical debt as you go, more cheaply than it would be to leave it there&mdash;even in the short-term.
+    * Transform 1: Read by Refactoring
+      * Address the root cause of the largest bug category: code that is locally hard to read or change.
+    * Transform 2: Testability by Refactoring
+      * Address the root cause of the second largest bug category: code that interacts with non-local code in unexpected ways, so local reasoning is insufficient.
+    * Transform 3: Test as Spec
+      * Address the root cause of the third largest bug category: miscommunications and learning that needs to happen resulting in coders not knowing the right thing to do.
+  * Each transformation progresses in a rigorous, supported way.
+    * Taste. A mob experience inriduces the topic and gives participants a chance to engage with an entirely new way of working, with social support.
+    * Habit forming. Supported application on the job allows participants to attain fluency at the key microskills that enable this way of working.
+    * Transform. Organizational support as participants and teams shift their entire way of working across the organization. Helps managers, teams, contributors, and others work together in new ways to capitalize on the new economics in development.
+  * Available at three program levels
+    * Individuals
+      * Focuses on individuals and shifts their individual skills and behavior.
+      * Includes the habit-forming tools. Taste is handled by blogs and books. No organizational transformation support. No support for changing your team's way of working.
+      * Perfect for individual champions to pilot the program and be able to sell change more effectively to their organizations. Also useful for individuals trapped in individual-excellence-based corporate cultures: gain skills that make you far more effective and valuable than other developers.
+    * Teams
+      * Focuses on a team at a time. Shifts their way of working to deliver new economics. Decreases cost to implement each story in the short-term and long-term, while reducing bugs written in the long-term.
+      * Perfect for piloting a full company change, or for small organizations (software organization smaller than 50 people).
+    * Organizations
+      * Focuses on large-scale transformation of a whole company. Shifts the fundamental economics, scales to thousands of people, and places you on a fundamentally different competitive footing. Uses train-the-trainer, champions networks, social learning, behavioral engineering, and other techniques to create deccentralized, highly-scaled, sustained transformations. Develops your company's ability to change itself, without needing consultants.
+      * Perfect for organizations with between 50 and 200,000 people in the software development organization.
 
 # Tooling
 

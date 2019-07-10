@@ -251,7 +251,7 @@ module.exports = function (grunt) {
 		grunt.log.writeln('To abandon a ship, simply do nothing.');
 	});
 
-	grunt.registerTask('build', ['copy:assets', 'verb', 'assemble', 'less', 'copy:apps', 'copy:ghpages']);
+	grunt.registerTask('build', ['copy:assets', 'assemble', 'less', 'copy:apps', 'copy:ghpages']);
 
 	// Build everything and watch for changes. You must first run "bower install"
 	// or install Bootstrap to the "vendor" directory before running this command.

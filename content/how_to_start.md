@@ -1,6 +1,14 @@
 ---
+layout: markdown.hbs
+
 title: Getting started
+slug: starting
 lead: How to start a team towards level 2 proficiency
+proprietary: true
+contributors:
+ - name: Arlo Belshee
+   username: arlobelshee
+   gravitar_id: 6995191364b77794684fbf3a3d6dacd7
 ---
 
 # Context
@@ -119,7 +127,7 @@ Clearly indicate that change is happening and supported at all levels. Align str
 
 ## Do not do
 
-**Any presentation by the manager or a consultant.** The champions decided what to do. They know why they decided those things. They need to present the information to the organization. Managers are champions and have an equal role. However, historically managers have probably had a superior role. So they will have to intentionally take a lesser role in order to establish balance. 
+**Any presentation by the manager or a consultant.** The champions decided what to do. They know why they decided those things. They need to present the information to the organization. Managers are champions and have an equal role. However, historically managers have probably had a superior role. So they will have to intentionally take a lesser role in order to establish balance.
 
 # Week 1
 
@@ -139,7 +147,7 @@ Teams deal with the pain that comes from starting to share work. Teams master ch
 
 # Week 3
 
-Teams use testability to drive context-neutral coding. Code size starts to reduce as a side-effect of normal working. Team learns 
+Teams use testability to drive context-neutral coding. Code size starts to reduce as a side-effect of normal working. Team learns
 
 ## Do
 

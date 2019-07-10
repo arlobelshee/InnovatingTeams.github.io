@@ -1,6 +1,14 @@
 ---
+layout: markdown.hbs
+
 title: Our approach
+slug: approach
 lead: The key ideas behind transforming teams
+proprietary: true
+contributors:
+ - name: Arlo Belshee
+   username: arlobelshee
+   gravitar_id: 6995191364b77794684fbf3a3d6dacd7
 ---
 
 # You own your destiny
