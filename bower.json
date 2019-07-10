@@ -16,5 +16,5 @@
     "should": "3.1.2",
     "sinon": "http://sinonjs.org/releases/sinon-1.8.1.js"
   },
-  "version": "0.2.7"
+  "version": "0.2.8"
 }
